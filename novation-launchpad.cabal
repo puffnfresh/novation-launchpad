@@ -11,7 +11,8 @@ cabal-version:       >=1.10
 
 library
   exposed-modules:     Sound.Novation.Launchpad
-                     , Sound.Novation.Launchpad.Chars
+                     , Sound.Novation.Launchpad.Chars8x8
+                     , Sound.Novation.Launchpad.Chars4x4
   build-depends:       base >=4.9 && <4.10
                      , PortMidi >=0.1 && <0.2
                      , bytestring

@@ -208,4 +208,4 @@ scrollAll delay (a:b:bs) color l = do
   scrollBetween delay a b color l
   scrollAll delay (b:bs) color l
 scrollAll _ bs color l =
-  for_ bs $ \b -> drawByteString b color l
+  for_ bs $ \b -> resetLaunchpad l *> drawByteString b color l

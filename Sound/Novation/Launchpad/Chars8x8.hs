@@ -1,4 +1,4 @@
-module Sound.Novation.Launchpad.Chars where
+module Sound.Novation.Launchpad.Chars8x8 where
 
 import           Data.ByteString
 
